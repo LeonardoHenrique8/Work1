@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Posts</title>
+</head>
+
+<body>
+    <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#home">
+                <h1><span>A</span>A<span>P</span>A</h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="menu">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="index.html#home" data-after="Início">Início</a></li>
+                <li><a href="index.html#sobre" data-after="About">Sobre</a></li>
+                <li><a href="index.html#objetivos" data-after="Objetivos">Objetivos</a></li>
+                <li><a href="index.html#serviços" data-after="Serviços">Serviços</a></li>
+                <li><a href="#post" data-after="Post">Posts</a></li>
+                <li><a href="index.html#ajuda" data-after="Ajuda">Como Ajudar?</a></li>
+                <li><a href="index.html#contato" data-after="Contato">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id ="post">
+        <div class="post container">
+          <div>
+            <h1>Postagens</h1>
+            <h2>Acompanhe aqui as últimas postagens sobre nossa Associação!</h2>
+            <div class="cover">
+              <ul>
+              <li><img src="images/post1.jpg"></li>
+              <li><img src="images/post2.jpg"></li>
+              <li><img src="images/post3.jpg"></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+         <div id="center_btn">    
+        <button id="button">Deixar comentário</button>
+         </div>
+
+         <!-- AJUSTAR FORMULÁRIO -->
+        <div id="formulario">
+        <form id="form">
+          <div>
+            <label>Nome:</label>
+            <input type="text" id="nomeid">
+          </div>
+          <div>
+            <textarea id="comment" placeholder="Deixe seu comentário aqui!"></textarea>
+          </div>
+    
+          <input type="button" value="Enviar" class="btn_envi" onclick="commentAdd()">
+        </form>
+      </div>
+      </section>
+        
+  <!--JAVA SCRIPT-->
+  <script src="js/index.js"></script>
+</body>
+
+</html>
